@@ -1,0 +1,61 @@
+<email set>
+  partyparti@gmail.com
+</email>
+<name set>
+  <div>555</div>
+  partyparti
+  <i>
+    555
+    555
+
+
+    555
+
+    555555555
+
+    555
+
+    555
+    555
+    <span>6666</span>
+    <abstract>5555</abstract>
+    9999
+  </i>
+  armespavong
+</name>
+<abstract>99999999</abstract>
+<abstract>5555</abstract>
+
+<user>
+  <userData set>
+    <get id="5"></get>
+  </userData>
+</user>
+
+<Illuminate>
+  <Auth>
+    <Authenticatable>
+      <setRememberToken value="">
+
+      </setRememberToken>
+    </Authenticatable>
+  </Auth>
+</Illuminate>
+
+<session>
+  <saveSesstion ></saveSesstion>
+</session>
+
+<choose>
+  <when test="title = 'Happy Gilmore'">
+    test
+  </when>
+  <otherwise>
+    test
+  </otherwise>
+</choose>
+
+<script>
+  console.log("test");
+  console.log("test");
+</script>

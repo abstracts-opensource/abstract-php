@@ -1,0 +1,15 @@
+{
+    "name": "abstract/create-project",
+    "description": "Create new project with Abstract framework",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Abstract",
+            "email": "developer@abstract.codes"
+        }
+    ],
+    "require": {
+        "abstract/core": "^0.0.3"
+    }
+}

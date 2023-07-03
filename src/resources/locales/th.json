@@ -1,0 +1,22 @@
+{
+  "___comment_general___": "",
+  "Invalid account": "ไม่พบบัญชีนี้ในระบบ",
+  "Invalid authorization": "ไม่พบสิทธิ์ในการเข้าใช้",
+  "Incorrect parameters": "พารามิเตอร์ไม่ครบถ้วน",
+  "Parameters must contain": "พารามิเตอร์ต้องประกอบไปด้วย",
+  "Session not found": "ไม่สามารถดำเนินการได้เนื่องจากยังไม่ได้ลงชื่อเข้าสู่ระบบ",
+  "Not found": "ไม่พบ",
+  "Nothing was updated": "ไม่มีการอัพเดทข้อมูลใด ๆ เลย",
+  "Function not support": "ฟังก์ชันไม่รองรับ",
+  "Unknown error": "พบข้อผิดพลาดบางประการ",
+  "File not found": "ไม่พบไฟล์",
+  "Unable to open file": "ไม่สามารถเปิดไฟล์ได้",
+  "Unsupported file": "ไม่รองรับไฟล์ประเภทนี้",
+  "Unable to create process": "ไม่สามารถสร้างโปรเซสได้",
+  "Database encountered error": "พบปัญหาเกี่ยวกับฐานข้อมูล",
+  "Current Password": "รหัสผ่านปัจจุบัน",
+  "New Password": "รหัสผ่านใหม่",
+  "must contain uppercases, lowercases, digits and special characters": "ต้องประด้วยตัวอักษรพิมพ์ใหญ่ พิมพ์เล็ก ตัวเลข และอักขระพิเศษ",
+  "___comment_tarolab___": "",
+  "You have already like this review": "คุณเห็นด้วยกับรีวิวนี้ไปแล้ว"
+}

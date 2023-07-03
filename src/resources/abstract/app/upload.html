@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<if variable="$email" condition="is exactly" value="55">
+  <exactly>
+    <email></email>
+    <string>55</string>
+    <string>55</string>
+    <email></email>
+    <string>55</string>
+    <string>55</string>
+    <string>55</string>
+    <string>55</string>
+  </exactly>
+</if>
+
+<check:test>
+  <if>
+    <exactly>
+      <string />
+      55
+    </exactly>
+  </if>
+  <then>
+    
+  </then>
+</check>
+
+<head>
+</head>
+
+<uiData>
+  <ab-ui>
+    <get>
+      5
+    </get>
+  </ab-ui>
+</uiData>
+
+query MyQuery($var1: Boolean!, $var2: Boolean!, $var3: Boolean!, $var4: Boolean!) {
+  field1
+  field2 @include(if: $var4 && ($var1 && ($var2 || $var3))) {
+    someValue
+  }
+}
+
+query {
+  feed(filter: "QL") {
+    id
+    description
+    url
+    postedBy {
+      id
+      name
+    }
+  }
+}
+
+<MyQuery>
+  <field1>
+    
+  </field1>
+  <if>
+    <field2>
+      <include>
+      </include>
+    </field2>
+  </if>
+</MyQuery>
+
+<body class="test" style="width: 100%;" xxx="333">
+  <ab-Interfacer>
+  </ab-Interfacer>
+  <ab-Interfacer>
+  </ab-Interfacer>
+  <ab-ui>
+    <get id="5" as="ui">
+      <if>
+        <whether> <!-- or -->
+          <exactly> <!-- and -->
+            <equal>
+              <string><ui><id></id></ui></string>
+              <string>5</string>
+            </equal>
+            <empty>
+              <use check>
+                <string>5</string>
+              </use>
+            </empty>
+          </exactly>
+          <empty>
+            <ui><id></id></ui>
+          </empty>
+        </whether>
+        <!-- if (($ui->id == '5') || empty($ui->id)) -->
+        <then>
+          <ui>
+            <id is="5" isNot="10">
+              <output>
+                <id>
+              </output>
+            </id>
+          </ui>
+        </then>
+        <else>
+  
+        </else>
+      </if>
+      <div></div>
+    </get>
+  </ab-ui>
+</body>
+
+</html>
