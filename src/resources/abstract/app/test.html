@@ -9,6 +9,7 @@
     background-color: linen;
     font-family: 'Inter', sans-serif;
   }
+
   h1 {
     color: maroon;
     margin-left: 40px;
@@ -19,33 +20,65 @@
   partyparti@gmail.com
 </email>
 
-<email source="model">
+<email abstract="model">
   partyparti@gmail.com
 </email>
 
-<contact source="resource">
+<contact abstract="resource">
   <test></test>
 </contact>
 
-<contact source="model">
+<contact abstract="model">
   <test></test>
 </contact>
 
-<contact source="method">
+<contact abstract="method">
   <test></test>
 </contact>
 
-<contact source="method|resource|model">
+<contact abstract="method|resource|model" as="string">
   <test></test>
 </contact>
 
-<contact-test source="method|resource|model">
+<contact-test abstract="method|resource|model" as="div">
 </contact-test>
 
-<contact-test exclude="model">
+<input abstract="method|resource|model" as="div">
+</input>
+
+<contact-test abstract exclude="model">
 </contact-test>
 
-<div>
+<contact-test abstract exclude="model">
+</contact-test>
+
+<x abstract="Contact\Test\hello">
+  <button>
+    <value-of select="catalog/cd/title" /></value-of>
+  </button>
+</x>
+
+<x x-provide="Contact\Test\hello">
+  <button>
+    <value-of select="catalog/cd/title" /></value-of>
+  </button>
+</x>
+
+<button>
+  <x abstract="Contact\Test">
+    <text abstract="hello" output="string"></text>
+  </x>
+</button>
+
+<button>
+  <text abstract="" output="string"></text>
+</button>
+
+<button>
+  <x call="" output="string"></x>
+</button>
+
+<div ignore>
 
 </div>
 

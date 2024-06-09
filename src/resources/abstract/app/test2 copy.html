@@ -1,0 +1,32 @@
+<head x:provide="X\Annotations\Names\">
+  <meta charset="utf-8">
+</head>
+<p></p>
+<head>
+  <metax charset="utf-8"/>
+</head>
+<div x:provide="X\Annotations\Names\">
+  <div x:provide="test" x:set="hello" x:output>
+    <x:attributes>
+      <value>
+        Hello World
+      </value>
+    </x:attributes>
+    <x:value-of select="hello"></x:value-of>
+  </div>
+  <div x:provide="testx" x:output="string">
+    <x:attributes>
+      <value>
+        <div>9000000</div>5555<div>9000000</div>
+      </value>
+      <value>9000000</value>
+    </x:attributes>
+  </div>
+</div>
+<br>
+<Test>
+  console.log('test');
+</Test>
+<script>
+  console.log("test");
+</script>

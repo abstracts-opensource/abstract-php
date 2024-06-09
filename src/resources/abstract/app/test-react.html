@@ -2,7 +2,7 @@
 
 </x>
 
-<x of="user" 
+<x api="user" 
 server="https://test.com"
 method="get" 
 function="list" 
@@ -15,3 +15,31 @@ callback={setUser}
     Name: [[test]]
   </div>
 </x>
+
+<XApi api="user" 
+server="https://test.com"
+method="get" 
+function="list" 
+body={} 
+parameters="page=1,limit=5" 
+header={} 
+callback={setUser}
+>
+  <div>
+    Name: [[test]]
+  </div>
+</Xapi>
+
+<x api="user" 
+server="https://test.com"
+method="get" 
+function="list" 
+body={} 
+parameters="page=1,limit=5" 
+header={} 
+callback={setUser}
+>
+  <div>
+    Name: [[test]]
+  </div>
+</Xapi>
